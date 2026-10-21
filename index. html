@@ -1,0 +1,81 @@
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jendela Pengetahuan</title>
+</head>
+<body>
+
+    <header>
+        <h1>Jendela Pengetahuan</h1>
+        <p>Informasi menarik untuk menambah wawasanmu</p>
+    </header>
+
+    <nav>
+        <a href="#">Beranda</a>
+        <a href="#">Artikel</a>
+        <a href="#">Tentang</a>
+    </nav>
+
+    <div class="container">
+
+        <img
+            class="gambar-artikel"
+            src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1000&q=80"
+            alt="Pemandangan alam hijau"
+        >
+
+        <h2>
+            Bumi Sedang Tidak Baik-Baik Saja:
+            Saatnya Kita Bergerak!
+        </h2>
+
+        <p class="info">
+            Ditulis oleh Admin | 17 Oktober 2026
+        </p>
+
+        <p>
+            Lingkungan merupakan bagian penting dalam kehidupan
+            manusia. Udara yang kita hirup, air yang kita minum,
+            dan makanan yang kita konsumsi semuanya berasal dari
+            alam.
+        </p>
+
+        <p>
+            Namun, sampah plastik, penebangan hutan, dan pencemaran
+            air menjadi masalah yang dapat merusak lingkungan.
+            Jika dibiarkan, masalah tersebut bisa mengganggu
+            keseimbangan ekosistem.
+        </p>
+
+        <h3>Langkah Kecil untuk Perubahan Besar</h3>
+
+        <p>
+            Kita bisa menjaga bumi dengan membuang sampah pada
+            tempatnya, mengurangi penggunaan plastik, menghemat
+            air, dan menanam pohon.
+        </p>
+
+        <p>
+            Mari kita mulai menjaga lingkungan dari diri sendiri.
+            Perubahan kecil yang dilakukan bersama-sama dapat
+            membantu menciptakan bumi yang lebih bersih dan sehat.
+        </p>
+
+        <a href="https://www.unep.org/"
+           class="tombol"
+           target="_blank"
+           rel="noopener noreferrer">
+            Baca Informasi Lingkungan
+        </a>
+
+    </div>
+
+    <footer>
+        <p>
+            &copy; 2026 Jendela Pengetahuan |
+            Belajar dan Berbagi
+        </p>
+    </footer>
+
+</body>
