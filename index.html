@@ -1,0 +1,194 @@
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jendela Pengetahuan</title>
+</head>
+<body>
+
+    <header>
+        <h1>Jendela Pengetahuan</h1>
+        <p>Informasi menarik untuk menambah wawasanmu</p>
+    </header>
+
+    <nav>
+        <a href="#">Beranda</a>
+        <a href="#">Artikel</a>
+        <a href="#">Tentang</a>
+    </nav>
+
+    <div class="container">
+
+        <img
+            class="gambar-artikel"
+            src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1000&q=80"
+            alt="Pemandangan alam hijau"
+        >
+
+        <h2>
+            Bumi Sedang Tidak Baik-Baik Saja:
+            Saatnya Kita Bergerak!
+        </h2>
+
+        <p class="info">
+            Ditulis oleh Admin | 17 Oktober 2026
+        </p>
+
+        <p>
+            Lingkungan merupakan bagian penting dalam kehidupan
+            manusia. Udara yang kita hirup, air yang kita minum,
+            dan makanan yang kita konsumsi semuanya berasal dari
+            alam.
+        </p>
+
+        <p>
+            Namun, sampah plastik, penebangan hutan, dan pencemaran
+            air menjadi masalah yang dapat merusak lingkungan.
+            Jika dibiarkan, masalah tersebut bisa mengganggu
+            keseimbangan ekosistem.
+        </p>
+
+        <h3>Langkah Kecil untuk Perubahan Besar</h3>
+
+        <p>
+            Kita bisa menjaga bumi dengan membuang sampah pada
+            tempatnya, mengurangi penggunaan plastik, menghemat
+            air, dan menanam pohon.
+        </p>
+
+        <p>
+            Mari kita mulai menjaga lingkungan dari diri sendiri.
+            Perubahan kecil yang dilakukan bersama-sama dapat
+            membantu menciptakan bumi yang lebih bersih dan sehat.
+        </p>
+
+        <a href="https://www.unep.org/"
+           class="tombol"
+           target="_blank"
+           rel="noopener noreferrer">
+            Baca Informasi Lingkungan
+        </a>
+
+    </div>
+
+    <footer>
+        <p>
+            &copy; 2026 Jendela Pengetahuan |
+            Belajar dan Berbagi
+        </p>
+    </footer>
+
+</body>/* Tampilan seluruh halaman */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f1f7ee;
+    color: #333;
+    line-height: 1.8;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #14532d, #4d9b58);
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Menu navigasi */
+nav {
+    background: #174a2b;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #b7f7a5;
+}
+
+/* Kotak artikel */
+.container {
+    max-width: 850px;
+    margin: 30px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px #ccc;
+}
+
+/* Gambar artikel */
+.gambar-artikel {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Judul artikel */
+h2 {
+    color: #1b5e20;
+    border-left: 5px solid #66bb6a;
+    padding-left: 12px;
+}
+
+h3 {
+    color: #2e7d32;
+}
+
+/* Informasi penulis */
+.info {
+    color: #777;
+    font-size: 14px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+/* Tombol artikel */
+.tombol {
+    display: inline-block;
+    background: #2e7d32;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.tombol:hover {
+    background: #14532d;
+}
+
+/* Footer */
+footer {
+    background: #174a2b;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Tampilan HP */
+@media (max-width: 600px) {
+    .container {
+        margin: 15px;
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 27px;
+    }
+
+    nav a {
+        margin: 5px;
+    }
+
+    .gambar-artikel {
+        height: 220px;
+    }
+}
